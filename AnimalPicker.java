@@ -10,7 +10,7 @@ public class AnimalPicker {
         } else if (choice.equals("dog")) {
             System.out.println("DOG ASCII ART HERE");
         } else {
-            System.out.println("Please choose either \"dog\" or \"cat\".");
+            System.out.println("Error: Invalid option. Please choose either \"dog\" or \"cat\".");
         }
 
         input.close();
