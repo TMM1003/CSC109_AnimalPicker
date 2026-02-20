@@ -75,12 +75,11 @@ public class AnimalPicker {
                                         "  %%@@@%@%***++*=++++++++++:=+#+***#####**==.::+*+++++++==+-==....==:===++*#%%#*+-+*%%@@%%@%%@%#*++*\r\n" + //
                                         "\r\n" + //
                         "");
-            }
-            else {
+                break;
+            } else {
                 System.out.println("Error: Invalid option. Please choose either \"dog\", \"cat\" , \"fish\", or \"alex\".");
             }
         }
-
         input.close();
     }
 }
